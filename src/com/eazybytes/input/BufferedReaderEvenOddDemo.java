@@ -8,7 +8,7 @@ public class BufferedReaderEvenOddDemo {
     public static void main(String[] args) throws IOException {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader bfr = new BufferedReader(isr);
-        System.out.println("enter a numbeic vlaue");
+        System.out.println("enter a numeric value");
         String input = bfr.readLine();
         int num = Integer.parseInt(input);
         if (num%2==0){
